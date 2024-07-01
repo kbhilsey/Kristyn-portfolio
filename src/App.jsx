@@ -18,41 +18,43 @@ import Contact from './components/Contact'
 const technicalSkills = [
   {
     category: 'Test Management Tools',
-    skills: ["Jira", "Micro Focus ALM", "Axure Devops/TFS", "TestRail", "IBM RQM", "SCTM"]
+    skills: ["Jira", "TestRail"]
   },
   {
     category: 'Test Automation',
-    skills: ["Micro Focus UFT, Selenium, Tricentis Tosca, SilkTest, Worksoft Certify"]
+    skills: ["Playwright"]
   },
-  {
-    category: 'Performance Testing Tools',
-    skills: ["LoadRunner, jMeter, Blazemeter, k6, Artillery"]
-  },
+ // {
+  //  category: 'Performance Testing Tools',
+  //  skills: ["LoadRunner, jMeter, Blazemeter, k6, Artillery"]
+ // },
   {
     category: 'API Testing Tools',
-    skills: ["PostMan, SoapUI, Python Requests"]
+    skills: ["PostMan"]
   },
   { 
     category: 'Programming Languages',
-    skills: ['Java, JavaScript, VBScript, Python, C#, SQL, YAML, XML']
+    skills: ['Typescript, Python, SQL']
   },
   {
     category: 'Other',
-    skills: ['Jenkins, CircleCI, Serenity BDD, Cucumber, Gherkin, Maven, J/N/XUnit, RestAssured, Stryker, Snyk']
+    skills: ['Chrome DevTools, Browserstack']
   }
 ]
 const jobSummaries = [
   {
-    Position: "Senior Software Quality Engineer",
-    Date: "July 2020–Present",
-    company: 'Quicken Loans',
-    Location: "Detroit, MI",
+    Position: "Software QA Engineer",
+    Date: "February 2024–Present",
+    company: 'Screenia',
+    Location: "Hayward, CA",
     Bullets: [
-      "Currently supporting 5 agile teams as the Train Quality Engineer with responsibilities that include setting the overall direction of the Quality Engineering program, architecting quality enablement processes and systems, devising and implementing testing strategies and tactics, setting quality-related goals, identifying key performance indicators, monitoring results, and adjusting as needed.",
-      "Built a Python Selenium automation framework from the ground-up with key features that include taking full-page screenshots, multiple browser and resolution support, and interrogating HTTP requests during test execution.",
-      "“Shifted-Left” on integration testing by leading efforts to design a new API testing framework which software and quality engineers now use to write and run integration tests on their local machine without having to first deploy their code changes to the test environment.",
-      "Developed Performance testing scenarios using k6 to enable performance testing in our CI/CD build pipelines as well as act as a sanity test before handing off our application to the Enterprise Performance Testing Team.",
-      "Currently designing an AI-backed, quality information system to gain telemetry on all test cases throughout the organization and act as a centralized hub for testing and quality metrics."
+      "Performing compatibility testing on a variety of devices and platforms to ensure a quality product ",
+      "Testing a mobile app applying ADB, Android Studio and Xcode tools to collect log files",
+      "Enhancing bug reporting and aiding developers in bug resolution using Chrome DevTools ",
+      "Analyzing project documentation, release notes and other documentation to identify test scenarios",
+      "Performing smoke and regression testing to inspect critical functionalities and system reliability",
+      "Logging and tracking bugs via Jira, verifying fixes, and ensuring resolution through follow-up",
+      "Collaborating with product team to ensure meeting deadlines and releasing a high-quality product"
     ]
   },
   {
@@ -119,8 +121,9 @@ function App() {
         />
         <About
           certifications={[
-            'Certified Tester – ISTQB Foundation Level 2017',
-            'Certified Scrum Master (CSM) 2016'
+            ' ',
+            'Currently Learning Python,',
+            'Playwright and Automation'
           ]}
           education={{
             educationOrganization:"Careerist.com",
