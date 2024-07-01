@@ -118,10 +118,10 @@ function App() {
           githubUrl="https://github.com/kbhilsey"
         />
         <About
-         // certifications={[
-           // 'Certified Tester – ISTQB Foundation Level 2017',
-           // 'Certified Scrum Master (CSM) 2016'
-         // ]}
+          certifications={[
+            'Certified Tester – ISTQB Foundation Level 2017',
+            'Certified Scrum Master (CSM) 2016'
+          ]}
           education={{
             educationOrganization:"Careerist.com",
             degreee:"Software Testing and Quality Assurance Training Certificate",
