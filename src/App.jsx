@@ -118,14 +118,14 @@ function App() {
           githubUrl="https://github.com/kbhilsey"
         />
         <About
-          certifications={[
-            'Certified Tester – ISTQB Foundation Level 2017',
-            'Certified Scrum Master (CSM) 2016'
-          ]}
+          //certifications={[
+            //'Certified Tester – ISTQB Foundation Level 2017',
+            //'Certified Scrum Master (CSM) 2016'
+         // ]}
           education={{
-            educationOrganization:"New Jersey Institute of Technology",
-            degreee:"B.A. Information Systems",
-            date:"2008"
+            educationOrganization:"Careerist.com",
+            degreee:"Software Testing and Quality Assurance Training Certificate",
+            date:"February 2024"
           }}
           summary={"Collaborative, flexible, and business-focused Software Quality Specialist with a strong leadership background.  Detail-oriented with the ability to thoroughly analyze systems, identify risks, and formulate testing strategies to satisfy business requirements.  Proven track record of utilizing automation and prioritizing deliverables in order to eliminate test coverage gaps and meet aggressive deadlines while meticulously exercising the application under test."}
         />
