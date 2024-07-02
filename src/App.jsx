@@ -139,21 +139,21 @@ function App() {
         <Projects
           projects={[
             {
-              imgUrl:"/stu-image.png",
+              imgUrl:"/stu-lite.png",
               projectName:"STU Premium",
               projectDescription: "Get a job in less than 30 days",
               linkCta: "Join Now",
               linkUrl: "https://www.skool.com/testerjobs/about"
             },
             {
-              imgUrl:"/stu-image.png",
+              imgUrl:"/stu-standard.png",
               projectName:"STU Standard",
               projectDescription: "Join the STU Community",
               linkCta: "Join Now",
               linkUrl: "https://www.skool.com/stu/about"
             },
             {
-              imgUrl:"/stu-image.png",
+              imgUrl:"/stu-premium.png",
               projectName:"STU Lite",
               projectDescription: "Join the Free STU Community",
               linkCta: "Join Now",
